@@ -1,0 +1,53 @@
+{
+    "id": 6,
+        "name": "Balance",
+        "description":"Learn how to instruct patients through balance exercises.",
+        "thumbnail": "https://media.istockphoto.com/id/1501185766/photo/man-doing-physical-therapy-exercises-using-a-balance-ball.jpg?s=612x612&w=0&k=20&c=hHyQSYCGdCm48bEygS2S8B5M6pRPOH8E5oNYqAqGFaQ=",
+        "contentUrl": "/sections/balance",
+        "vocabulary": [
+          {
+            "word": "balance",
+            "translation": "equilibrio"
+          },
+          {
+            "word": "stand",
+            "translation": "pararse"
+          },
+          {
+            "word": "stand on one foot",
+            "translation": "pararse en un pie"
+          },
+          {
+            "word": "step up",
+            "translation": "subir"
+          },
+          {
+            "word": "walk",
+            "translation": "caminar"
+          },
+          {
+            "word": "heel",
+            "translation": "talón"
+          },
+          {
+            "word": "toe",
+            "translation": "dedo del pie"
+          },
+          {
+            "word": "heel to toe",
+            "translation": "talón a dedo del pie"
+          },
+          {
+            "word": "Walk taking sideways steps.",
+            "translation": "Caminar dando pasos de lado."
+          },
+          {
+            "word": "backwards",
+            "translation": "hacia atrás"
+          },
+          {
+            "word": "Are you dizzy?",
+            "translation": "¿Estás mareado?"
+          }
+        ]
+      }

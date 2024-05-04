@@ -1,0 +1,29 @@
+{ 
+  "id": 1,
+  "name": "Introductions",
+  "description": "Learn basic Spanish greetings and introductions.",
+  "thumbnail": "https://plus.unsplash.com/premium_photo-1664302336737-37fce6daca3c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "contentUrl": "/sections/introductions",
+    "vocabulary": [
+      {
+        "word": "hello",
+        "translation": "hola"
+      },
+      {
+        "word": "goodbye",
+        "translation": "adiós"
+      },
+      {
+        "word": "How are you?",
+        "translation": "¿Cómo está usted?"
+      },
+      {
+        "word": "My name is...",
+        "translation": "Me llamo ..."
+      },
+      {
+        "word": "I am a physical therapist assistant.",
+        "translation": "Soy un/a asistente de terapia física."
+      }
+    ]
+  }

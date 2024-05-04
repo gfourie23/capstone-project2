@@ -1,0 +1,49 @@
+{ 
+  "id": 4,
+  "name": "Exercise Instructions",
+  "description": "Learn how to instruct patients to complete exercises.",
+  "thumbnail": "https://plus.unsplash.com/premium_photo-1681996552732-29cfb91ac383?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "contentUrl": "/sections/exercise",
+    "vocabulary": [
+        {
+          "word": "Bend your knee",
+          "translation": "Flexiona la rodilla"
+        },
+        {
+          "word": "Straighten your knee",
+          "translation": "Estira la rodilla"
+        },
+        {
+          "word": "Stand with upright posture",
+          "translation": "Ponte de pie con la postura recta"
+        },
+        {
+          "word": "Raise your arm",
+          "translation": "Levanta el brazo"
+        },
+        {
+          "word": "Lower your arm",
+          "translation": "Baja el brazo"
+        },
+        {
+          "word": "Reach for the sky",
+          "translation": "Alcanza hacia el cielo"
+        },
+        {
+          "word": "Rotate your torso to the left",
+          "translation": "Gira el torso hacia la izquierda"
+        },
+        {
+          "word": "Rotate your torso to the right",
+          "translation": "Gira el torso hacia la derecha"
+        },
+        {
+          "word": "Lift your leg",
+          "translation": "Levanta la pierna"
+        },
+        {
+          "word": "Squat down",
+          "translation": "Agáchate"
+        }
+      ]      
+  }
