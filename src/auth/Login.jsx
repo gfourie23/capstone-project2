@@ -1,19 +1,26 @@
 import React, { useContext } from 'react';
-//import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { UserContext } from './UserContext';
 import { useGoogleLogin } from '@react-oauth/google';
 
 const LoginPage = ({ onLogin }) => {
-    const login = useGoogleLogin({
+  //const history = useHistory();
+  const navigate = useNavigate(); 
+  const login = useGoogleLogin({
+    
       onSuccess: (codeResponse) => {
+  
         onLogin(codeResponse); // Call the onLogin function with the codeResponse
+        navigate('/home');
+        //history.push('/home');
       },
       onError: (error) => console.log('Login Failed:', error)
     });
   
     return (
       <div>
-        <h2>Sign in with Google</h2>
+        <h2 className="text-3xl font-black mb-6 mt-6 text-white">Speak Spanish with Confidence</h2>
+          <h3 className='text-xl font-bold mb-12'>The Language Learning App Tailored for Physical Therapy Clinicians</h3>
         <button onClick={login}>Sign in with Google 🚀</button>
       </div>
     );

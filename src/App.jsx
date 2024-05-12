@@ -9,7 +9,9 @@ import axios from 'axios';
 import {UserContext} from './auth/UserContext';
 import LoginPage from './auth/Login';
 import HomePage from './auth/Homepage';
-import Example from './route-nav/NavBarEx';
+import { OpenAI } from 'openai';
+
+
 
 function App() {
 
@@ -41,6 +43,53 @@ function App() {
       [ user ]
   );
 
+/*  const [response, setResponse] = useState("Hi there! How can I assist you?");
+  const [value, setValue] = useState("");
+
+  const onChange = (e) => setValue(e.target.value);
+
+  const handleSubmit = async () => {
+    const response = await axios.post("http://localhost:3005/chatbot", {
+      question: value,
+    });
+    setResponse(response.data);
+  }; */
+
+  /*const openai = new OpenAI({
+    apiKey: import.meta.env.VITE_OPENAI_API_KEY,
+  });
+
+  //const openai = new OpenAI(configuration); 
+
+  const responseGenerate = async (inputText, setInputText) => {
+    let options = {
+      prompt: `Complete this sentence: "${inputText}"`,
+      model: 'text-davinci-003',
+      max_tokens: 50,
+      n: 1,
+      stop: ".",
+    };
+
+    let completeOptions = {
+      ...options,
+      prompt: inputText,
+    };
+
+    const response = await openai.createFinished(completeOptions);
+
+     if (response.data.choices) {
+            setMessages([
+                {
+                    question: inputText,
+                    answer: response.data.choices[0].text,
+                },
+                ...messages,
+            ]);
+            setInputText('');
+        }
+  };*/
+
+
   /*const { logout } = useGoogleLogout({
     onSuccess: () => {
       setUser(null);
@@ -63,6 +112,23 @@ function App() {
      
         <NavBar logout={logout} />
         <MyRoutes login={login}/>
+
+
+    {/*<div className="container mt-8">
+      <div>
+        <input className='w-80'
+          type="text"
+          value={value}
+          onChange={onChange}
+        />
+      </div>
+      <div>
+        <button className="mt-8" onClick={handleSubmit}>Click me for answers!</button>
+      </div>
+      <div>
+        <p className='mt-8'>Chatbot: {response}</p>
+      </div>
+  </div> */}
     
       </div>
       </UserContext.Provider>

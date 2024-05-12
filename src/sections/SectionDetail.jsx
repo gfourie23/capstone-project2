@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import Card from "../flashcards/Card";
 import introData from '../schema/intro.json';
 import vitalsData from '../schema/vital-signs.json';
@@ -64,7 +64,7 @@ function SectionDetail() {
             <div className="flex justify-center">
                 {section && (
                     <div>
-                        <h4 className="text-3xl font-bold m-10">{section.sectionName}</h4>
+                        <h4 className="text-3xl font-bold m-10">{section.name}</h4>
                         <LanguageSelector selectedLanguage={language} onLanguageChange={toggleLanguage} />
                         <div className="flex flex-col items-center">
                             <Card
@@ -75,10 +75,13 @@ function SectionDetail() {
                             <div className="flex justify-center mt-4">
                                 <ArrowButton direction="left" onClick={goToPreviousCard} />
                                 <ArrowButton direction="right" onClick={goToNextCard} />
-                                <button onClick={addToReview} className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded mr-2">
+                            </div>
+                                <button onClick={addToReview} className="bg-yellow-400 hover:bg-yellow-600 text-gray-600 font-bold py-2 px-4 rounded mr-2">
                                     Add to Review
                                 </button>
-                            </div>
+                                <p className="mt-10">
+                                    Add a <Link to={`${section.contentUrl}/new-word`}>new word or phrase</Link> to the {section.name} section.
+                                </p>
                         </div>
                     </div>
                 )}

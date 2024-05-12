@@ -6,6 +6,7 @@ import LoginPage from "../auth/Login";
 import HomePage from "../auth/Homepage";
 import PrivateRoute from "./PrivateRoute";
 import Review from "../sections/Review";
+import AddWords from "../sections/AddWords";
 
 
 function MyRoutes({ login, signup }) {
@@ -13,11 +14,11 @@ function MyRoutes({ login, signup }) {
     return (
         <div>
             <Routes>
-                <Route path="/"
+                <Route path="/home"
                     element={<HomePage />} />
                 
 
-                <Route path="/login"    
+                <Route path="/"    
                     element={<LoginPage login={login} />} />
               
 
@@ -26,6 +27,9 @@ function MyRoutes({ login, signup }) {
                 <Route path="/sections/:handle" element={<SectionDetail />} />
 
                 <Route path="/review" element={<Review />} />
+
+                <Route path="/sections/:handle/new-word" element={<AddWords />} />
+
 
                 
             </Routes>
