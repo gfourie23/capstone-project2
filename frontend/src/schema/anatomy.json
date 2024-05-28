@@ -1,0 +1,30 @@
+{ 
+    "id": 3,
+    "handle":"anatomy",
+    "name": "Anatomy",
+    "description":"Learn vocabulary related to general anatomy.",
+    "thumbnail": "https://www.realityworks.com/wp-content/uploads/2019/08/HumanTorso-500wide.jpg",
+    "contentUrl": "/sections/anatomy",
+      "vocabulary": [
+      {
+        "word": "leg",
+        "translation": "pierna"
+      },
+      {
+        "word": "arm",
+        "translation": "brazo"
+      },
+      {
+        "word": "hip",
+        "translation": "cadera"
+      },
+      {
+        "word": "knee",
+        "translation": "rodilla"
+      },
+      {
+        "word": "ankle",
+        "translation": "tobillo"
+      }
+    ]
+  }

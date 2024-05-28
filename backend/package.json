@@ -1,0 +1,27 @@
+{
+  "name": "pt-spanish-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfourie23/capstone-project2.git#main"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfourie23/capstone-project2/issues"
+  },
+  "homepage": "https://github.com/gfourie23/capstone-project2/tree/main#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonschema": "^1.4.1",
+    "openai": "^4.47.1",
+    "pg": "^8.11.5"
+  }
+}

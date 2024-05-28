@@ -1,0 +1,54 @@
+{ 
+    "id": 5,
+    "handle": "gait",
+    "name": "Gait Training",
+    "description":"Learn to instruct patients in safe gait patterns.",
+    "thumbnail": "https://media.istockphoto.com/id/1194506777/photo/young-man-in-walking-rehabilitation-course-after-a-sport-injury.jpg?s=612x612&w=0&k=20&c=aHGE1IiPZxSdbZ8yxrpeyND6a3lfreU5RCLr5cx9EzA=",
+    "contentUrl": "/sections/gait",
+    "vocabulary": [
+      {
+        "word": "step",
+        "translation": "paso"
+      },
+      {
+        "word": "walk",
+        "translation": "caminar"
+      },
+      {
+        "word": "stride",
+        "translation": "zancada"
+      },
+      {
+        "word": "take a bigger step",
+        "translation": "da un paso más grande"
+      },
+      {
+        "word": "lift your foot",
+        "translation": "levanta el pie"
+      },
+      {
+        "word": "lift your foot a little more",
+        "translation": "levanta un poco más el pie"
+      },
+      {
+        "word": "step down",
+        "translation": "baja el pie"
+      },
+      {
+        "word": "step down with your heel first",
+        "translation": "baja el pie con el talón primero"
+      },
+      {
+        "word": "heel",
+        "translation": "talón"
+      },
+      {
+        "word": "toe",
+        "translation": "dedo del pie"
+      },
+      {
+        "word": "heel to toe",
+        "translation": "talón a dedo del pie"
+      }
+    ]
+  }

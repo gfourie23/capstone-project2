@@ -1,0 +1,59 @@
+{ 
+    "id": 9,
+    "handle": "modalities",
+    "name": "Modalities",
+    "description":"Learn vocabulary related to common physical therapy modalities.",
+    "thumbnail": "https://media.istockphoto.com/id/1297947887/photo/female-physiotherapist-is-examining-to-her-patient.jpg?s=612x612&w=0&k=20&c=t49oAbBCRqeywIuYoyf9N9qQ3KYN2GL7Ct7l5P4Y1uc=",
+    "contentUrl": "/sections/modalities",
+    "vocabulary": [
+        {
+            "word": "modality",
+            "translation": "modalidad"
+          },
+          {
+            "word": "physical therapy",
+            "translation": "terapia física"
+          },
+          {
+            "word": "electrical stimulation",
+            "translation": "estimulación eléctrica"
+          },
+          {
+            "word": "massage",
+            "translation": "masaje"
+          },
+          {
+            "word": "hot pack",
+            "translation": "compresa caliente"
+          },
+          {
+            "word": "traction",
+            "translation": "tracción"
+          },
+          {
+            "word": "ultrasound",
+            "translation": "ultrasonido"
+          },
+          {
+            "word": "therapeutic exercise",
+            "translation": "ejercicio terapéutico"
+          },
+          {
+            "word": "stretching",
+            "translation": "estiramiento"
+          },
+          {
+            "word": "strengthening",
+            "translation": "fortalecimiento"
+          },
+          {
+            "word": "balance training",
+            "translation": "entrenamiento de equilibrio"
+          },
+          {
+            "word": "manual therapy",
+            "translation": "terapia manual"
+          }
+      
+    ]
+  }
