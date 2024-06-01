@@ -1,32 +1,4 @@
-/* import React from "react";
-import { useReview } from "../context/ReviewContext";
-import Card from "../flashcards/Card";
 
-function Review() {
-  const { reviewCards } = useReview();
-
-  return (
-    <div className="Review">
-      <h2 className="text-3xl font-bold m-10">Review</h2>
-      <div className="flex flex-col items-center">
-        {reviewCards.length > 0 ? (
-          reviewCards.map((card, index) => (
-            <Card
-              key={index}
-              question={card.word}
-              answer={card.translation}
-              language={english}
-            />
-          ))
-        ) : (
-          <p className="mt-10">No cards to review. Add some words to your review list!</p>
-        )}
-      </div>
-    </div>
-  );
-}
-
-export default Review; */
 
 import React from 'react';
 import { useReview } from '../context/ReviewContext';
